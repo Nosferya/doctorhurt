@@ -1,147 +1,196 @@
-body {
+html{
+  background-color: #ffb380;
   font-family: 'Arvo', serif;
-  background-color: #ffc266;
 }
 
-main {
-display: flex;
-justify-content: center;
-}
-
-#bg {
-  background-image: url("../image/qijx.png");
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 150px;
-  margin: auto;
-}
-h1 {
+.titre{
   text-align: center;
+  margin-top: 50px;
 }
 
-.epauletxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
+.center{
+  display:flex;
+  justify-content: center;
+}
+
+.corps{
+  background-image: url(../image/qijx.png);
+  background-size: auto;
+  margin-top: 70px;
+  width: 140px;
+  height: 500px;
+  margin-right: 200px;
+
 }
 
 .epaule {
-  width: 50px;
-  height: 50px;
-  background: grey;
-  border-radius: 50%;
-  opacity: 0.7;
-  margin-top: 80px;
-}
-.epaule:hover {background:red;}
-.epaule:hover .epauletxt {display:block;}
+     width: 50px;
+     height: 50px;
+     background: black;
+     border-radius: 50px;
+     opacity: 0.5;
+     margin-top: 80px;
+     margin-left: 1px;
 
-.coudetxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
-
-}
-.coude {
-  width: 50px;
-  height: 50px;
-  background: grey;
-  border-radius: 50%;
-  opacity: 0.7;
-  margin-top: 40px;
-  margin-left: 100px;
-}
-
-.coude:hover {background:red;}
-.coude:hover .coudetxt {display: block;}
+   }
 
 
-.maintxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
-
-}
-.main {
-  width: 50px;
-  height: 50px;
-  background: grey;
-  border-radius: 50%;
-  opacity: 0.7;
-  margin-top: 15px;
-  }
-  .main:hover {background:red;}
-  .main:hover .maintxt {display: block;}
-
-.cuissetxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
-
-}
-.cuisse {
+.coude{
     width: 50px;
     height: 50px;
-    background: grey;
-    border-radius: 50%;
-    opacity: 0.7;
-    margin-top: -30px;
-margin-left: 70px;
-
+    background:black;
+    border-radius: 50px;
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-left: 100px;
 }
-.cuisse:hover {background:red;}
-.cuisse:hover .cuissetxt {display: block;}
-
-.genouxtxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
-}
-
-.genoux {
+.poignet{
   width: 50px;
   height: 50px;
-  background: grey;
-  border-radius: 50%;
-  opacity: 0.7;
-  margin-top: 30px;
-margin-left: 70px;
-}
-.genoux:hover {background:red;}
-.genoux:hover .genouxtxt {display: block;}
-
-.piedtxt {
-  position: absolute;
-  width: 30%;
-  top: 120px;
-  right: 170px;
-  text-align: justify;
-  display:none;
+  background: black;
+  border-radius: 50px;
+  opacity: 0.5;
+  margin-top: -20px;
+  margin-left: -10px;
 }
 
-.pied {
+.hanche{
   width: 50px;
   height: 50px;
-  background: grey;
-  border-radius: 50%;
-  opacity: 0.7;
-  margin-top: 50px;
-margin-left: 70px;
+  background: black;
+  border-radius: 50px;
+  opacity: 0.5;
+  margin-left: 75px;
+  margin-top: -20px;
 }
-.pied:hover {background:red;}
-.pied:hover .piedtxt {display: block;}
+
+.genou{
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cheville{
+
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50px;
+    opacity: 0.5;
+    margin-left: 64px;
+    margin-top: 15px;
+}
+
+
+.epaule:hover{
+  background: red;
+}
+.coude:hover{
+  background: red;
+}
+.poignet:hover{
+  background: red;
+}
+.hanche:hover{
+  background: red;
+}
+.genou:hover{
+  background: red;
+}
+.cheville:hover{
+  background: red;
+}
+
+.zonetxt{
+  width: 200px;
+  height: 500px;
+  margin-left: 10px;
+  margin-top: 65px;
+
+}
+.epauletxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+
+}
+
+.epaule:hover  .epauletxt{
+  display:block;
+
+
+}
+
+.coudetxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+
+}
+
+.coude:hover .coudetxt{
+  display: block;
+
+}
+.poignettxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+
+}
+
+.poignet:hover .poignettxt{
+  display: block;
+
+}
+.hanchetxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+
+}
+
+.hanche:hover .hanchetxt{
+  display: block;
+
+}
+.genoutxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+}
+
+.genou:hover .genoutxt{
+  display: block;
+
+}
+.chevilletxt{
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 18%;
+  left: 51%;
+
+
+}
+
+.cheville:hover .chevilletxt{
+  display: block;
+
+
+
+}
