@@ -1,1 +1,97 @@
+body {
+  font-family: 'Arvo', serif;
+  background-color: #ffc266;
+}
 
+main {
+display: flex;
+justify-content: center;
+}
+
+.bg {
+  background-image: url("../image/qijx.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 150px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+
+.epauletxt {
+  position: absolute;
+  width: 40%;
+  top: 120px;
+  right: 10px;
+  text-align: justify;
+  display:none;
+}
+
+.epaule {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  margin-top: 80px;
+}
+.epaule:hover {background:red;}
+.epaule:hover .epauletxt {display:block;}
+
+
+.coude {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.coude:hover {background:red;}
+
+.main {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  margin-top: 15px;
+  }
+  .main:hover {background:red;}
+
+.cuisse {
+    width: 50px;
+    height: 50px;
+    background: grey;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin-top: -30px;
+margin-left: 70px;
+
+}
+.cuisse:hover {background:red;}
+
+.genoux {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  margin-top: 30px;
+margin-left: 70px;
+}
+.genoux:hover {background:red;}
+
+.pied {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  margin-top: 50px;
+margin-left: 70px;
+}
+.pied:hover {background:red;}
