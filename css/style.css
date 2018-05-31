@@ -8,7 +8,7 @@ display: flex;
 justify-content: center;
 }
 
-.bg {
+#bg {
   background-image: url("../image/qijx.png");
   background-repeat: no-repeat;
   height: 500px;
@@ -21,9 +21,9 @@ h1 {
 
 .epauletxt {
   position: absolute;
-  width: 40%;
+  width: 30%;
   top: 120px;
-  right: 10px;
+  right: 170px;
   text-align: justify;
   display:none;
 }
@@ -39,7 +39,15 @@ h1 {
 .epaule:hover {background:red;}
 .epaule:hover .epauletxt {display:block;}
 
+.coudetxt {
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  right: 170px;
+  text-align: justify;
+  display:none;
 
+}
 .coude {
   width: 50px;
   height: 50px;
@@ -51,7 +59,18 @@ h1 {
 }
 
 .coude:hover {background:red;}
+.coude:hover .coudetxt {display: block;}
 
+
+.maintxt {
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  right: 170px;
+  text-align: justify;
+  display:none;
+
+}
 .main {
   width: 50px;
   height: 50px;
@@ -61,7 +80,17 @@ h1 {
   margin-top: 15px;
   }
   .main:hover {background:red;}
+  .main:hover .maintxt {display: block;}
 
+.cuissetxt {
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  right: 170px;
+  text-align: justify;
+  display:none;
+
+}
 .cuisse {
     width: 50px;
     height: 50px;
@@ -73,6 +102,16 @@ margin-left: 70px;
 
 }
 .cuisse:hover {background:red;}
+.cuisse:hover .cuissetxt {display: block;}
+
+.genouxtxt {
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  right: 170px;
+  text-align: justify;
+  display:none;
+}
 
 .genoux {
   width: 50px;
@@ -84,6 +123,16 @@ margin-left: 70px;
 margin-left: 70px;
 }
 .genoux:hover {background:red;}
+.genoux:hover .genouxtxt {display: block;}
+
+.piedtxt {
+  position: absolute;
+  width: 30%;
+  top: 120px;
+  right: 170px;
+  text-align: justify;
+  display:none;
+}
 
 .pied {
   width: 50px;
@@ -95,3 +144,4 @@ margin-left: 70px;
 margin-left: 70px;
 }
 .pied:hover {background:red;}
+.pied:hover .piedtxt {display: block;}
