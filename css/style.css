@@ -105,13 +105,6 @@ html{
   background: red;
 }
 
-.zonetxt{
-  width: 200px;
-  height: 500px;
-  margin-left: 10px;
-  margin-top: 65px;
-
-}
 .epauletxt{
   display: none;
   position: absolute;
